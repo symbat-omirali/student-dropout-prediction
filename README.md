@@ -48,6 +48,24 @@ Logistic Regression achieved a slightly higher macro F1-score, while Random Fore
 
 Logistic Regression was selected as the primary model for further interpretation because of its slightly higher macro F1-score and comparatively straightforward structure.
 
+## Project Visualizations
+
+### Student Outcome Distribution
+
+![Class Distribution](figures/class_distribution.png)
+
+### Confusion Matrix — Logistic Regression
+
+![Confusion Matrix](figures/confusion_matrix.png)
+
+### Permutation Feature Importance
+
+![Feature Importance](figures/feature_importance.png)
+
+### SHAP Summary — Dropout Class
+
+![SHAP Summary](figures/shap_summary.png)
+
 ## Explainable AI
 
 Two approaches were used to investigate feature importance:
