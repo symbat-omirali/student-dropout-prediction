@@ -109,6 +109,23 @@ Further evaluation using additional fairness metrics and careful validation of s
 
 `student_dropout_prediction.ipynb` — Jupyter Notebook containing the complete analysis, preprocessing, model development, evaluation, and explainability workflow.
 
+## How to Run
+
+1. Open the notebook in Google Colab:
+
+   [Open in Google Colab](https://colab.research.google.com/github/symbat-omirali/student-dropout-prediction/blob/main/student_dropout_prediction.ipynb)
+
+2. Run all cells from top to bottom using
+   Runtime > Run all.
+
+3. The notebook installs the required Colab dependencies
+   and loads the dataset from the UCI Repository.
+
+4. Review the model evaluation, feature importance,
+   SHAP explanations, and subgroup analysis.
+
+The complete dependency list is available in requirements.txt.
+
 ## Author
 
 Created as a machine learning portfolio project focused on student academic outcome prediction and explainable AI.
